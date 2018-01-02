@@ -1,3 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea
 .DS_Store
+Generic/target/generated-sources/
+HealthFirst/target/generated-sources/
+HealthFirst/target/generated-test-sources/

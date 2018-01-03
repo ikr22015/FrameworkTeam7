@@ -69,6 +69,41 @@ public class HomePage extends CommonAPI{
     WebElement contuctUs;
 
 
+    //************************* SubFooter Locators ************************
+
+    @FindBy(xpath = "//*[@id=\"menu-item-4448\"]/a")
+    WebElement leafPlan;
+
+    @FindBy(id = "//*[@id=\"menu-item-1695\"]/a")
+    WebElement madicaidManageCare;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-1697\"]/a")
+    WebElement childHealthPlus;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-4923\"]/a")
+    WebElement madicarePlans;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-4924\"]/a")
+    WebElement madicareMadicaidPlans;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-7361\"]/a")
+    WebElement personalWillnessPlan;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-8904\"]/a")
+    WebElement managedLongTerm;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-7584\"]/a")
+    WebElement essentialPlan;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-13213\"]/a")
+    WebElement proAndProPlusPlan;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-14763\"]/a")
+    WebElement totalEPOplan;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-14763\"]/a")
+    WebElement totalEPOplan;
+
 
     //************************* Header methods ************************
     public void search(){

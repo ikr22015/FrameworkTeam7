@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 public class HomePage extends CommonAPI{
     Actions actions = new Actions(driver);
 
-    //************************* Header Locators ************************
+    //************************* Header Element Locators ************************
     @FindBy(css = "#header .logo")
     WebElement logo;
 
@@ -39,7 +39,7 @@ public class HomePage extends CommonAPI{
     @FindBy(xpath = "//li[@id = \"menu-item-13283\"]/a[text() = \"Info For Employers\"]")
     WebElement infoForEmployers;
 
-    //************************* Body Locators ************************
+    //************************* Body Element Locators ************************
 
     @FindBy(xpath = "//a[@class = \"view_all_plans\"]")
     WebElement viewAllPlans;
@@ -66,11 +66,11 @@ public class HomePage extends CommonAPI{
     WebElement findHealthPlan;
 
     @FindBy(id = "#hf_contact_us_btn")
-    WebElement contuctUs;
+    WebElement contuctUsNY;
 
 
-    //************************* SubFooter Locators ************************
-
+    //************************* SubFooter Element Locators ************************
+    //Get health Insurance
     @FindBy(xpath = "//*[@id=\"menu-item-4448\"]/a")
     WebElement leafPlan;
 
@@ -101,8 +101,99 @@ public class HomePage extends CommonAPI{
     @FindBy(xpath = "//*[@id=\"menu-item-14763\"]/a")
     WebElement totalEPOplan;
 
-    @FindBy(xpath = "//*[@id=\"menu-item-14763\"]/a")
-    WebElement totalEPOplan;
+    @FindBy(xpath = "//*[@id=\"menu-item-7586\"]/a")
+    WebElement healthyNYsmallGroup;
+
+    //Info for Member
+
+    @FindBy(xpath = "//*[@id=\"menu-item-387\"]/a")
+    WebElement memberServices;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-385\"]/a")
+    WebElement contactUs;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-31113\"]/a")
+    WebElement planRenewals;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-2212\"]/a")
+    WebElement planMaterials;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-3314\"]/a")
+    WebElement reportFraud;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-437\"]/a")
+    WebElement fAQs;
+
+    //Info for Providers
+
+    @FindBy(xpath = "//*[@id=\"menu-item-3313\"]/a")
+    WebElement provoderServices;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-3312\"]/a")
+    WebElement claimsAndBilling;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-391\"]/a")
+    WebElement providersManuals;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-4361\"]/a")
+    WebElement providerResources;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-3311\"]/a")
+    WebElement compliance;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-4843\"]/a")
+    WebElement clinicalPartnership;
+
+    //other
+
+    @FindBy(xpath = "//*[@id=\"menu-item-3994\"]/a")
+    WebElement glossery;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-6686\"]/a")
+    WebElement careers;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-2182\"]/a")
+    WebElement aboutUp;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-397\"]/a")
+    WebElement pressRoom;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-436\"]/a")
+    WebElement mediaContact;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-19893\"]/a")
+    WebElement noticeofNonDiscri;
+
+
+    //************************* Footer Element Locators ************************
+
+    @FindBy(xpath = "//li[@id = \"menu-item-3782\"]/a[text() = \"Web Privacy\"]")
+    WebElement webPrivacy;
+
+    @FindBy(xpath = "//li[@id = \"menu-item-3782\"]/a[text() = \"Privacy Notices\"]")
+    WebElement privacyNotices;
+
+    @FindBy(xpath = "//*[@id=\"menu-item-401\"]/a")
+    WebElement siteMap;
+
+    //Social Media******
+    @FindBy(xpath = "//a[@href = \"https://www.facebook.com/HealthfirstNY\"]/img")
+    WebElement facebook;
+
+    @FindBy(xpath = "//a[@href = \"https://twitter.com/healthfirstny\"]/img")
+    WebElement twitter;
+
+    @FindBy(xpath = "//a[@href = \"https://www.youtube.com/healthfirstny\"]/img")
+    WebElement youtube;
+
+    @FindBy(xpath = "//a[@href = \"https://www.pinterest.com/healthfirstny/\"]/img")
+    WebElement pinterest;
+
+    @FindBy(xpath = "//a[@href = \"https://www.instagram.com/healthfirstny/\"]/img")
+    WebElement instagram;//************************* End element locator
+
+
+
 
 
     //************************* Header methods ************************
@@ -164,6 +255,162 @@ public class HomePage extends CommonAPI{
     }
 
     public void gotoContactUs(){
-        contuctUs.click();
+        contuctUsNY.click();
+    }
+
+    //************************* SubFooter Methods ************************
+    //Get Health Insurance
+    public void gotoleafPlan(){
+        leafPlan.click();
+    }
+
+    public void gotomadicaidManageCare(){
+        madicaidManageCare.click();
+    }
+
+    public void gotomadicarePlans(){
+        madicarePlans.click();
+    }
+
+    public void gotomadicareMadicaidPlans(){
+        madicareMadicaidPlans.click();
+    }
+
+    public void gotopersonalWillnessPlan(){
+        personalWillnessPlan.click();
+    }
+
+    public void gotomanagedLongTerm(){
+        managedLongTerm.click();
+    }
+
+    public void gotoessentialPlan(){
+        essentialPlan.click();
+    }
+
+    public void gotoproAndProPlusPlan(){
+        proAndProPlusPlan.click();
+    }
+
+    public void gotototalEPOplan(){
+        totalEPOplan.click();
+    }
+
+    public void gotochildHealthPlus(){
+        childHealthPlus.click();
+    }
+
+    public void gotohealthyNYsmallGroup(){
+        healthyNYsmallGroup.click();
+    }
+
+    //Info for member
+    public void gotomemberServices(){
+        memberServices.click();
+    }
+
+    public void gotocontactUs(){
+        contactUs.click();
+    }
+
+    public void gotoplanRenewals(){
+        planRenewals.click();
+    }
+
+    public void gotoplanMaterials(){
+        planMaterials.click();
+    }
+
+    public void gotoreportFraud(){
+        reportFraud.click();
+    }
+
+    public void gotofAQs(){
+        fAQs.click();
+    }
+
+    //Info for Providers
+    public void gotoprovoderServices(){
+        provoderServices.click();
+    }
+
+    public void gotoclaimsAndBilling(){
+        claimsAndBilling.click();
+    }
+
+    public void gotoprovidersManuals(){
+        providersManuals.click();
+    }
+
+    public void gotoproviderResources(){
+        providerResources.click();
+    }
+
+    public void gotocompliance(){
+        compliance.click();
+    }
+
+    public void gotoclinicalPartnership(){
+        clinicalPartnership.click();
+    }
+
+    //Others
+    public void gotoglossery(){
+        glossery.click();
+    }
+
+    public void gotocareers(){
+        careers.click();
+    }
+
+    public void gotoaboutUp(){
+        aboutUp.click();
+    }
+
+    public void gotopressRoom(){
+        pressRoom.click();
+    }
+
+    public void gotomediaContact(){
+        mediaContact.click();
+    }
+
+    public void gotonoticeofNonDiscri(){
+        noticeofNonDiscri.click();
+    }
+
+    //************************* Footer Element Locators ************************
+
+    public void gotowebPrivacy(){
+        webPrivacy.click();
+    }
+
+    public void gotoprivacyNotices(){
+        privacyNotices.click();
+    }
+
+    public void gotositeMap(){
+        siteMap.click();
+    }
+
+    //Social media
+    public void gotofacebook(){
+        facebook.click();
+    }
+
+    public void gototwitter(){
+        twitter.click();
+    }
+
+    public void gotoyoutube(){
+        youtube.click();
+    }
+
+    public void gotopinterest(){
+        pinterest.click();
+    }
+
+    public void gotoinstagram(){
+        instagram.click();
     }
 }

@@ -33,13 +33,40 @@ public class HomePage extends CommonAPI{
     @FindBy(xpath = "//input[@name = 'sa']")
     WebElement goBtn;
 
-    @FindBy(xpath = "//*[@id=\"menu-item-424\"]/a")
-    WebElement getHealthInsuNav;
+    @FindBy(xpath = "//a[text() =\"Info for Brokers\"]")
+    WebElement infoForBroker;
 
-    @FindBy(xpath = "//*[@id=\"menu-item-8903\"]/a")
-    WebElement manageLongTPlan;
+    @FindBy(xpath = "//li[@id = \"menu-item-13283\"]/a[text() = \"Info For Employers\"]")
+    WebElement infoForEmployers;
 
+    //************************* Body Locators ************************
 
+    @FindBy(xpath = "//a[@class = \"view_all_plans\"]")
+    WebElement viewAllPlans;
+
+    @FindBy(xpath = "//div[@class = \"box_content\"]/ul/li/a[text() = \"Become a Member\"]")
+    WebElement becomeaMember;
+
+    @FindBy(xpath = "//div[@class = \"box_content\"]/ul/li/a[text() = \"Find a Doctor or Hospital\"]")
+    WebElement findDoctor;
+
+    @FindBy(xpath = "//div[@class = \"box_content\"]/ul/li/a[text() = \"Pay My Bill\"]")
+    WebElement payToBill;
+
+    @FindBy(css = "#container > div.wrapper > div.widget > div.border_box.doctors > div > a")
+    WebElement reviewPlan;
+
+    @FindBy(xpath = "//*[@id=\"container\"]/div[1]/div[3]/div[2]/div/a")
+    WebElement healtyLiving;
+
+    @FindBy(xpath = "//*[@id=\"container\"]/div[1]/div[5]/div[1]//div/a")
+    WebElement hFirstCommunity;
+
+    @FindBy(xpath = "//*[@id=\"container\"]/div[1]/div[5]/div[2]//div/a")
+    WebElement findHealthPlan;
+
+    @FindBy(id = "#hf_contact_us_btn")
+    WebElement contuctUs;
 
 
 
@@ -54,21 +81,54 @@ public class HomePage extends CommonAPI{
     }
 
     public void goToMemberLogin(){
-
+        memberLogin.click();
     }
 
     public void gotoProviderLogin(){
-
+        providerLogIn.click();
     }
 
     public void gotoInfoForBrokers(){
-
+        infoForBroker.click();
     }
 
     public void gotoInfoForEmployers(){
-
+        infoForEmployers.click();
+    }
+    //************************* Body methods ************************
+    public void gotoViewallPlans(){
+        viewAllPlans.click();
     }
 
+    public void gotoBecomeaMember() {
+        becomeaMember.click();
+    }
 
+    public void gotoFindDoctor(){
+        findDoctor.click();
+    }
 
+    public void gotoPayBill(){
+        payToBill.click();
+    }
+
+    public void gotoReviewPlan(){
+        reviewPlan.click();
+    }
+
+    public void gotoHealtyLiving(){
+        healtyLiving.click();
+    }
+
+    public void gotoHFcommunity(){
+        hFirstCommunity.click();
+    }
+
+    public void gotoFindHealthPlan(){
+        findHealthPlan.click();
+    }
+
+    public void gotoContactUs(){
+        contuctUs.click();
+    }
 }

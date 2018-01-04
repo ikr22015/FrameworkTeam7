@@ -9,8 +9,9 @@
         <parameter name="URL" value="https://healthfirst.org/"/>
 
         <classes>
-            <class name="testcases.TestHomePage"/>
-            <class name="testcases.TestMemberLogInPage"/>
+            <!--<class name="testcases.TestHomePage"/>-->
+            <!--<class name="testcases.TestMemberLogInPage"/>-->
+            <class name="testcases.TestMemberSignUp"/>
         </classes>
     </test>
 

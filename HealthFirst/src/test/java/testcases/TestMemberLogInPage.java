@@ -27,4 +27,6 @@ public class TestMemberLogInPage extends CommonAPI {
 
         mlp.forgetPassword();
     }
+
+
 }

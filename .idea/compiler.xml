@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="CitiBank" />
         <module name="Generic" />
         <module name="HealthFirst" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CitiBank" target="1.5" />
       <module name="FrameworkTeam7" target="1.5" />
       <module name="Generic" target="1.5" />
       <module name="HealthFirst" target="1.5" />

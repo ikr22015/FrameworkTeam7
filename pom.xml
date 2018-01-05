@@ -11,6 +11,7 @@
     <modules>
         <module>Generic</module>
         <module>HealthFirst</module>
+        <module>CitiBank</module>
     </modules>
     <dependencyManagement>
         <dependencies>

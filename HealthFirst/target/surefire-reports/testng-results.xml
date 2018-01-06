@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HF" duration-ms="70157" started-at="2018-01-06T17:39:30Z" finished-at="2018-01-06T17:40:40Z">
+    <groups>
+    </groups>
+    <test name="Test HF" duration-ms="70157" started-at="2018-01-06T17:39:30Z" finished-at="2018-01-06T17:40:40Z">
+      <class name="testcases.TestMemberSignUp">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestMemberSignUp@35fb3008]" name="setUp" is-config="true" duration-ms="6312" started-at="2018-01-06T12:40:15Z" finished-at="2018-01-06T12:40:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://healthfirst.org/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMemberSignUp()[pri:0, instance:testcases.TestMemberSignUp@35fb3008]" name="testMemberSignUp" duration-ms="9239" started-at="2018-01-06T12:40:22Z" finished-at="2018-01-06T12:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMemberSignUp -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TestMemberSignUp@35fb3008]" name="teardown" is-config="true" duration-ms="200" started-at="2018-01-06T12:40:31Z" finished-at="2018-01-06T12:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.TestMemberSignUp -->
+      <class name="testcases.TestMemberLogInPage">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestMemberLogInPage@3cbbc1e0]" name="setUp" is-config="true" duration-ms="6800" started-at="2018-01-06T12:39:49Z" finished-at="2018-01-06T12:39:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://healthfirst.org/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testForgetPassword()[pri:0, instance:testcases.TestMemberLogInPage@3cbbc1e0]" name="testForgetPassword" duration-ms="8356" started-at="2018-01-06T12:39:55Z" finished-at="2018-01-06T12:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgetPassword -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TestMemberLogInPage@3cbbc1e0]" name="teardown" is-config="true" duration-ms="235" started-at="2018-01-06T12:40:04Z" finished-at="2018-01-06T12:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestMemberLogInPage@3cbbc1e0]" name="setUp" is-config="true" duration-ms="6622" started-at="2018-01-06T12:40:04Z" finished-at="2018-01-06T12:40:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://healthfirst.org/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMemberLogIn()[pri:0, instance:testcases.TestMemberLogInPage@3cbbc1e0]" name="testMemberLogIn" duration-ms="4678" started-at="2018-01-06T12:40:11Z" finished-at="2018-01-06T12:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMemberLogIn -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TestMemberLogInPage@3cbbc1e0]" name="teardown" is-config="true" duration-ms="224" started-at="2018-01-06T12:40:15Z" finished-at="2018-01-06T12:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.TestMemberLogInPage -->
+      <class name="testcases.TestHomePage">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@6df97b55]" name="setUp" is-config="true" duration-ms="8758" started-at="2018-01-06T12:39:30Z" finished-at="2018-01-06T12:39:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://healthfirst.org/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLangChangeEnglishToChinese()[pri:0, instance:testcases.TestHomePage@6df97b55]" name="testLangChangeEnglishToChinese" duration-ms="380" started-at="2018-01-06T12:39:39Z" finished-at="2018-01-06T12:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLangChangeEnglishToChinese -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TestHomePage@6df97b55]" name="teardown" is-config="true" duration-ms="214" started-at="2018-01-06T12:39:39Z" finished-at="2018-01-06T12:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestHomePage@6df97b55]" name="setUp" is-config="true" duration-ms="6482" started-at="2018-01-06T12:39:39Z" finished-at="2018-01-06T12:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://healthfirst.org/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSearch()[pri:0, instance:testcases.TestHomePage@6df97b55]" name="testSearch" duration-ms="2351" started-at="2018-01-06T12:39:46Z" finished-at="2018-01-06T12:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TestHomePage@6df97b55]" name="teardown" is-config="true" duration-ms="206" started-at="2018-01-06T12:39:48Z" finished-at="2018-01-06T12:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.TestHomePage -->
+      <class name="testcases.TestProviderligInPage">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TestProviderligInPage@7225790e]" name="setUp" is-config="true" duration-ms="6906" started-at="2018-01-06T12:40:31Z" finished-at="2018-01-06T12:40:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://healthfirst.org/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testProviderLogIn()[pri:0, instance:testcases.TestProviderligInPage@7225790e]" name="testProviderLogIn" duration-ms="1966" started-at="2018-01-06T12:40:38Z" finished-at="2018-01-06T12:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProviderLogIn -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TestProviderligInPage@7225790e]" name="teardown" is-config="true" duration-ms="190" started-at="2018-01-06T12:40:40Z" finished-at="2018-01-06T12:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.TestProviderligInPage -->
+    </test> <!-- Test HF -->
+  </suite> <!-- HF -->
+</testng-results>

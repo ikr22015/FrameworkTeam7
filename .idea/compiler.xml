@@ -12,10 +12,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="CitiBank" target="1.5" />
+      <module name="CitiBank" target="1.8" />
       <module name="FrameworkTeam7" target="1.5" />
-      <module name="Generic" target="1.5" />
-      <module name="HealthFirst" target="1.5" />
+      <module name="Generic" target="1.8" />
+      <module name="HealthFirst" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

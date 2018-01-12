@@ -1,9 +1,10 @@
 package pageobject;
 
+import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class MemberLogInPage {
+public class MemberLogInPage extends CommonAPI{
 
     //***********************Element locators**********************
 
@@ -36,10 +37,10 @@ public class MemberLogInPage {
     public void loginPageTitle(){
         loginPageTitle.click();
     }
-
-    public void memberLogin(){
-        userNamefield.sendKeys("abc@yahoo.com");
-        passwordfield.sendKeys("abc123");
+    //data driven search
+    public void memberLogin(String username, String password){
+        userNamefield.sendKeys(username);
+        passwordfield.sendKeys(password);
         loginBtn.click();
     }
 

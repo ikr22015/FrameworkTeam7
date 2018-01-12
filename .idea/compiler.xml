@@ -12,6 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Amazon" target="1.8" />
       <module name="CitiBank" target="1.8" />
       <module name="FrameworkTeam7" target="1.5" />
       <module name="Generic" target="1.8" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="HF" parallel="none">
+<suite name="HF" parallel="false">
 
     <test name="Test HF">
         <parameter name="browser_name" value="firefox"/>
@@ -9,10 +9,10 @@
         <parameter name="URL" value="https://healthfirst.org/"/>
 
         <classes>
-            <class name="testcases.TestHomePage"/>
+            <!--<class name="testcases.TestHomePage"/>-->
             <class name="testcases.TestMemberLogInPage"/>
-            <class name="testcases.TestMemberSignUp"/>
-            <class name="testcases.TestProviderligInPage"/>
+            <!--<class name="testcases.TestMemberSignUp"/>-->
+            <!--<class name="testcases.TestProviderligInPage"/>-->
         </classes>
     </test>
 

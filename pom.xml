@@ -47,10 +47,8 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
     <build>
         <finalName>ParentPOMProj</finalName>
-
         <pluginManagement>
             <plugins>
                 <plugin>
@@ -71,5 +69,4 @@
             </plugins>
         </pluginManagement>
     </build>
-
 </project>

@@ -26,7 +26,6 @@ public class ProviderLogInPage {
     @FindBy(xpath = "//*[@id=\"7431182f-c908-48ee-9a30-0b6aeb2ed834\"]/p[3]/span/span/a")
     WebElement providerSignUp;
 
-
     public void goToHomePage(){
         goTOHomePage.click();
     }
@@ -44,6 +43,4 @@ public class ProviderLogInPage {
     public void providerSignUp(){
         providerSignUp.click();
     }
-
-
 }

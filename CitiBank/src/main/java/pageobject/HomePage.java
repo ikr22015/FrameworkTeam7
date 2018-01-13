@@ -11,8 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class HomePage extends CommonAPI{
     Actions actions = new Actions(driver);
 
-    private By res = By.xpath("//a[@url = \"https://online.citi.com/US/JRS/pands/detail.do?ID=MoneyMarket\"]");
-
+    //private By res = By.xpath("//a[@url = \"https://online.citi.com/US/JRS/pands/detail.do?ID=MoneyMarket\"]");
     @FindBy(xpath = "//div[@alt= \"Citi Bank Logo\"]/span")
     WebElement logo;
 
@@ -44,7 +43,6 @@ public class HomePage extends CommonAPI{
     }
 
     public void search(){
-        wait.until(ExpectedConditions.presenceOfElementLocated(res));
         searchBtn.click();
         searchBox.sendKeys("saving account ");
         actions.moveToElement(savingAccMoneyMarket).click().build().perform();

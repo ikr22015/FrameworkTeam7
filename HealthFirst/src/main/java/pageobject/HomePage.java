@@ -164,7 +164,6 @@ public class HomePage extends CommonAPI{
     @FindBy(xpath = "//*[@id=\"menu-item-19893\"]/a")
     WebElement noticeofNonDiscri;
 
-
     //************************* Footer Element Locators ************************
 
     @FindBy(xpath = "//li[@id = \"menu-item-3782\"]/a[text() = \"Web Privacy\"]")
@@ -192,11 +191,8 @@ public class HomePage extends CommonAPI{
     @FindBy(xpath = "//a[@href = \"https://www.instagram.com/healthfirstny/\"]/img")
     WebElement instagram;//************************* End element locator
 
-
-
-
-
     //************************* Header methods ************************
+
     public void search(){
         searchBox.sendKeys("doctor");
         goBtn.click();
@@ -221,7 +217,9 @@ public class HomePage extends CommonAPI{
     public void gotoInfoForEmployers(){
         infoForEmployers.click();
     }
+
     //************************* Body methods ************************
+
     public void gotoViewallPlans(){
         viewAllPlans.click();
     }
@@ -259,6 +257,7 @@ public class HomePage extends CommonAPI{
     }
 
     //************************* SubFooter Methods ************************
+
     //Get Health Insurance
     public void gotoleafPlan(){
         leafPlan.click();

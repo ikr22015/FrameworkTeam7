@@ -31,18 +31,14 @@ public class TestMemberLogInPage extends MemberLogInPage {
         return credentials;
     }
 
+    /*@Test
+    public void testForgetPassword(){
+        HomePage hp = PageFactory.initElements(driver,HomePage.class);
+        hp.goToMemberLogin();
 
+        MemberLogInPage mlp = PageFactory.initElements(driver, MemberLogInPage.class);
+        mlp.memberLogin();
 
-//    @Test
-//    public void testForgetPassword(){
-//        HomePage hp = PageFactory.initElements(driver,HomePage.class);
-//        hp.goToMemberLogin();
-//
-//        MemberLogInPage mlp = PageFactory.initElements(driver, MemberLogInPage.class);
-//        mlp.memberLogin();
-//
-//        mlp.forgetPassword();
-//    }
-
-
+        mlp.forgetPassword();
+    }*/
 }

@@ -8,7 +8,6 @@ import pageobject.MemberLogInPage;
 import pageobject.MemberSignUpPage;
 
 public class TestMemberSignUp extends CommonAPI{
-
     @Test
     public void testMemberSignUp(){
         HomePage hp = PageFactory.initElements(driver,HomePage.class);

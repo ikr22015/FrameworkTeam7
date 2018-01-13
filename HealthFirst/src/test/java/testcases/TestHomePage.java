@@ -17,5 +17,4 @@ public class TestHomePage extends CommonAPI{
         HomePage hp = PageFactory.initElements(driver,HomePage.class);
         hp.langChangeEnglishToChinese();
     }
-
 }
